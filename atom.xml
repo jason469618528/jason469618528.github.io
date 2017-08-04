@@ -1,44 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>获取iOS设备唯一标示UUID (转发来源简书) | lyyourc</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/css/app.css">
-  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
   
-</head>
-
-<body>
-  <nav class="app-nav">
+  <link href="/atom.xml" rel="self"/>
   
-    
-      <a href="/.">home</a>
-    
+  <link href="http://yoursite.com/"/>
+  <updated>2017-08-04T01:52:54.000Z</updated>
+  <id>http://yoursite.com/</id>
   
+  <author>
+    <name>John Doe</name>
     
-      <a href="/archives">archive</a>
-    
+  </author>
   
-    
-      <a href="/atom.xml">rss</a>
-    
+  <generator uri="http://hexo.io/">Hexo</generator>
   
-</nav>
-
-  <main class="post">
-  <article>
-  <h1 class="article-title">
-    <a href="/2017/04/21/获取iOS设备唯一标示UUID (转发)/">获取iOS设备唯一标示UUID (转发来源简书)</a>
-  </h1>
-
-  <section class="article-meta">
-    <p class="article-date">April 21 2017</p>
-  </section>
-
-  <section class="article-entry">
-    <p>在开发过程中，我们经常会被要求获取每个设备的唯一标示，以便后台做相应的处理。我们来看看有哪些方法来获取设备的唯一标示，然后再分析下这些方法的利弊。</p>
+  <entry>
+    <title>获取iOS设备唯一标示UUID (转发来源简书)</title>
+    <link href="http://yoursite.com/2017/04/21/%E8%8E%B7%E5%8F%96iOS%E8%AE%BE%E5%A4%87%E5%94%AF%E4%B8%80%E6%A0%87%E7%A4%BAUUID%20(%E8%BD%AC%E5%8F%91)/"/>
+    <id>http://yoursite.com/2017/04/21/获取iOS设备唯一标示UUID (转发)/</id>
+    <published>2017-04-21T01:30:00.000Z</published>
+    <updated>2017-08-04T01:52:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在开发过程中，我们经常会被要求获取每个设备的唯一标示，以便后台做相应的处理。我们来看看有哪些方法来获取设备的唯一标示，然后再分析下这些方法的利弊。</p>
 <p>具体可以分为如下几种：</p>
 <ol>
 <li>UDID</li>
@@ -89,79 +73,182 @@
 <p>接着在Target—&gt;Build Settings—-&gt;Code Signing栏下的Code Signing Entitlements右侧添加KeychainAccessGroups.plist</p>
 <p>如图：<br><img src="/img/277755-e736892057d71333.png" alt=""></p>
 <p>这样就可以保证每个app都是从keychain中读取出来同一个UUID</p>
-
-  </section>
-</article>
-
-  <div class="sharing grid">
-  <section class="profile grid-item grid">
-    <img class="avatar" src="http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png" alt="avatar" />
-    <div class="grid-item">
-      <p class="title"> lyyourc </p>
-      <p class="subtitle"> You Are The JavaScript In My HTML </p>
-    <div>
-  </section>
-
-  <section class="share-btns">
-    <!-- <p> share it if you like it~ </p> -->
-    <a
-  class="twitter-share-button"
-  data-size="large"
-  data-via="DrakeLeung"
-  href="https://twitter.com/intent/tweet?text=在开发过程中，我们经常会被要求获取每个设"
->
-  Tweet
-</a>
-
-<script>
-  window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  js.async = true;
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));
-</script>
-
-  </section>
-</div>
-
-
-  
+]]></content>
     
-<section class="article-comment">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</section>
-
-<script>
-  var disqus_shortname = 'drakeleung';
+    <summary type="html">
+    
+      &lt;p&gt;在开发过程中，我们经常会被要求获取每个设备的唯一标示，以便后台做相应的处理。我们来看看有哪些方法来获取设备的唯一标示，然后再分析下这些方法的利弊。&lt;/p&gt;
+&lt;p&gt;具体可以分为如下几种：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;UDID&lt;/li&gt;
+&lt;li&gt;IDFA&lt;/li&gt;
+&lt;li&gt;IDF
+    
+    </summary>
+    
+    
+  </entry>
   
-  var disqus_url = 'http://yoursite.com/2017/04/21/获取iOS设备唯一标示UUID (转发)/';
+  <entry>
+    <title>IOS 开发经验总结(不定时更新)</title>
+    <link href="http://yoursite.com/2017/03/21/IOS%20%E5%BC%80%E5%8F%91%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93(%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0)/"/>
+    <id>http://yoursite.com/2017/03/21/IOS 开发经验总结(不定时更新)/</id>
+    <published>2017-03-21T06:00:00.000Z</published>
+    <updated>2017-08-04T01:52:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.使用Podfile管理Pods依赖库版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">pod &apos;AFNetworking&apos;      //不显式指定依赖库版本，表示每次都获取最新版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;2.0&apos;     //只使用2.0版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;&gt; 2.0&apos;     //使用高于2.0的版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;&gt;= 2.0&apos;     //使用大于或等于2.0的版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;&lt; 2.0&apos;     //使用小于2.0的版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;&lt;= 2.0&apos;     //使用小于或等于2.0的版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;~&gt; 0.1.2&apos;     //使用大于等于0.1.2但小于0.2的版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;~&gt;0.1&apos;     //使用大于等于0.1但小于1.0的版本    </div><div class="line">pod &apos;AFNetworking&apos;, &apos;~&gt;0&apos;     //高于0的版本，写这个限制和什么都不写是一个效果，都表示使用最新版本</div></pre></td></tr></table></figure></p>
+<h3 id="2-使用系统原生-nabber-backItem显示文字问题"><a href="#2-使用系统原生-nabber-backItem显示文字问题" class="headerlink" title="2.使用系统原生 nabber backItem显示文字问题"></a>2.使用系统原生 nabber backItem显示文字问题</h3><p>eg: A,B两个VC, A navItem.Title = 首页,A push 到 B, B的backItem Title 返回显示 <strong>首页</strong>，这里想更改这个文字 ，在A界面设置navitem 的 BackItem title = 返回，再push ，的backItem Title 显示 <strong>返回</strong>；使用原生的backItem 必须先提前设置backItem title;<br><code>self.navigationItem.backBarButtonItem = [UIBarButtonItem alloc] initWithTitle:&lt;#(nullable NSString *)#&gt; style:&lt;#(UIBarButtonItemStyle)#&gt; target:&lt;#(nullable id)#&gt; action:&lt;#(nullable SEL)#&gt;</code></p>
+<h3 id="3-设置-uibarbuttonitem-image-时按钮变成蓝色"><a href="#3-设置-uibarbuttonitem-image-时按钮变成蓝色" class="headerlink" title="3.  设置 uibarbuttonitem image 时按钮变成蓝色"></a>3.  设置 uibarbuttonitem image 时按钮变成蓝色</h3><p>*着色（Tint Color）是iOS7界面中的一个.设置UIImage的渲染模式：UIImage.renderingMode重大改变，你可以设置一个UIImage在渲染时是否使用当前视图的Tint Color。UIImage新增了一个只读属性：renderingMode，对应的还有一个新增方法：imageWithRenderingMode:，它使用UIImageRenderingMode枚举值来设置图片的renderingMode属性。该枚举中包含下列值：</p>
+<p>UIImageRenderingModeAutomatic   根据图片的使用环境和所处的绘图上下文自动调整渲染模式。<br>UIImageRenderingModeAlwaysOriginal    始终绘制图片原始状态，不使用Tint Color。<br>UIImageRenderingModeAlwaysTemplate    始终根据Tint Color绘制图片，忽略图片的颜色信息。  </p>
+<p>renderingMode属性的默认值是UIImageRenderingModeAutomatic，即UIImage是否使用Tint Color取决于它显示的位置。其他情况可以看下面的图例<em><br>设置selectedImage 的 renderingMode 为UIImageRenderingModeAlwaysOriginal<br>UIImage </em>selectedImage=[UIImage imageNamed: @”btn_nav_share_lawyer”];<br>        selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];<br>  创建baritem<br> shareBarBtn = [[UIBarButtonItem alloc] initWithImage:selectedImage style:UIBarButtonItemStyleDone target:self action:@selector(shareAction)];</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1.使用Podfile管理Pods依赖库版本&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2
+    
+    </summary>
+    
+    
+  </entry>
   
-  (function(){
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-
-
+  <entry>
+    <title>Xcode 创建自定义模板 (来源网络)</title>
+    <link href="http://yoursite.com/2017/03/17/Xcode%20%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E6%9D%BF%20(%E7%BD%91%E7%BB%9C)/"/>
+    <id>http://yoursite.com/2017/03/17/Xcode 创建自定义模板 (网络)/</id>
+    <published>2017-03-17T04:00:00.000Z</published>
+    <updated>2017-08-04T01:52:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-模板方案路径"><a href="#1-模板方案路径" class="headerlink" title="1 模板方案路径"></a>1 模板方案路径</h3><p>系统模板的路径（Xcode7）_Applications_Xcode.app_Contents_Developer_Library_Xcode_Templates_File Templates在这个目录下；<br><img src="/img/1693553-98812f12b7414336.png" alt=""><br>其中的Core Data、Other、Resource、Source和User Interface对应着<br><img src="/img/1693553-0bed79c964adb6dc.png" alt=""></p>
+<h3 id="BaseVC-xctemplate介绍"><a href="#BaseVC-xctemplate介绍" class="headerlink" title="BaseVC.xctemplate介绍"></a>BaseVC.xctemplate介绍</h3><p>假设已经将BaseVC.xctemplate放入了Source文件夹中，查看BaseVC.xctemplate中有<br>（1）BaseViewControllerObjective-C 文件夹<br>用来创建.h 和 .m文件。 其中文件夹的命名规范是[name]+Objective-C. 如果是创建swift修改为swift。<br>（2）BaseViewControllerXibObjective-C文件夹<br>用来创建.h，.m和.xib文件。其中文件夹的命名规范是[name]+XibObjective-C. swift类似。<br>（3）TemplateIcon图片<br>图片是用来显示在New File的菜单上的。任意放一个自己喜欢的图片，像素138*138即可。<br>（4）TemplateInfo.plist<br>配置文件。下面单独讲讲。</p>
+<h3 id="3-FILEBASENAME-h"><a href="#3-FILEBASENAME-h" class="headerlink" title="3.FILEBASENAME.h"></a>3.<strong><em>FILEBASENAME</em></strong>.h</h3><p>内容为</p>
+<p>  <strong><em>FILENAME</em></strong><br>  <strong><em>PROJECTNAME</em></strong></p>
+<p>  Created by <strong><em>FULLUSERNAME</em></strong> on <strong><em>DATE</em></strong>.<br><strong><em>COPYRIGHT</em></strong></p>
+<p>#import “<strong>_VARIABLE<em>cocoaTouchSubclass</em></strong>.h”</p>
+<p>@interface <strong><em>FILEBASENAMEASIDENTIFIER</em></strong> : <strong>_VARIABLE<em>cocoaTouchSubclass</em></strong></p>
+<p>@end<br>里面的参数在生成h文件时，系统会替换了输入的文件名。具体都是什么含义，大家可以自行Google了。</p>
+<h3 id="4-FILEBASENAME-m"><a href="#4-FILEBASENAME-m" class="headerlink" title="4. FILEBASENAME.m"></a>4. <strong><em>FILEBASENAME</em></strong>.m</h3><p>内容为</p>
+<p>  <strong><em>FILENAME</em></strong><br>  <strong><em>PROJECTNAME</em></strong></p>
+<p>  Created by <strong><em>FULLUSERNAME</em></strong> on <strong><em>DATE</em></strong>.<br><strong><em>COPYRIGHT</em></strong></p>
+<p>#import “<strong><em>FILEBASENAME</em></strong>.h”<br> Controllers<br> Model<br> Views</p>
+<p>#define &lt;#macro#&gt; &lt;#value#&gt;</p>
+<p>@interface <strong><em>FILEBASENAMEASIDENTIFIER</em></strong> ()</p>
+<p>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#name#&gt;<br>@end<br>@implementation <strong><em>FILEBASENAMEASIDENTIFIER</em></strong></p>
+<p>#pragma mark - View Controller LifeCyle</p>
+<ul>
+<li>[ ] (instancetype)initWithCoder:(NSCoder *)coder<br>{<br>  self = [super initWithCoder:coder];<br>  if (self) {<br>  }<br>  return self;<br>}   </li>
+<li><p>[ ] (void)viewDidLoad<br>{<br>  [super viewDidLoad];</p>
+<p>  [self initialNavigationBar];<br>}</p>
+</li>
+<li>[ ] (void)viewDidAppear:(BOOL)animated<br>{<br>  [super viewDidAppear:animated];<br>}</li>
+<li><p>[ ] (void)viewWillDisappear:(BOOL)animated<br>{<br>  [super viewWillDisappear:animated];<br>}</p>
+</li>
+<li><p>[ ] (void)didReceiveMemoryWarning<br>{<br>  [super didReceiveMemoryWarning];</p>
+<p>  [[SDImageCache sharedImageCache] setValue:nil forKey:@”memCache”];<br>}</p>
+</li>
+<li><p>[ ] (void)dealloc<br>{<br>  [[NSNotificationCenter defaultCenter] removeObserver:self];<br>}<br>#pragma mark - Override</p>
+</li>
+</ul>
+<p>#pragma mark - Initial Methods</p>
+<ul>
+<li>[ ] (void)initialNavigationBar<br>{<br>  self.navigationItem.title = &lt;#title#&gt;;<br>}</li>
+</ul>
+<p>#pragma mark - Target Methods</p>
+<p>#pragma mark - Notification Methods</p>
+<p>#pragma mark - KVO Methods</p>
+<p>#pragma mark - UITableViewDelegate, UITableViewDataSource</p>
+<p>#pragma mark - Privater Methods</p>
+<p>#pragma mark - Setter Getter Methods</p>
+<p>@end<br>按编程规范编写的，大家可以自行修改，New File后将自动生成你修改的内容。</p>
+<h3 id="5-TemplateInfo-plist"><a href="#5-TemplateInfo-plist" class="headerlink" title="5. TemplateInfo.plist"></a>5. TemplateInfo.plist</h3><p><img src="/img/1693553-0ed0fdac87c08112.png" alt=""><br>SortOrder 这个是排序的值，可以设置在界面中的摆放位置<br>Options中的Item0，Item1，Item2，Item3 对应了<br><img src="/img/1693553-d8e6c07058f379f0-1.png" alt=""><br>自定义的BaseViewController的类，当然可以使用系统或自己定义。<br>BaseViewController的后缀。选择后，自动在Class后面添加ViewController的后缀。<br>是否生成Xib文件，默认是ture。当选择了BaseViewController时，可以进行checkout，不然不可选，不生成Xib文件。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-模板方案路径&quot;&gt;&lt;a href=&quot;#1-模板方案路径&quot; class=&quot;headerlink&quot; title=&quot;1 模板方案路径&quot;&gt;&lt;/a&gt;1 模板方案路径&lt;/h3&gt;&lt;p&gt;系统模板的路径（Xcode7）_Applications_Xcode.app_Content
+    
+    </summary>
+    
+    
+  </entry>
   
-</main>
-
-</body>
-</html>
+  <entry>
+    <title>IOS面试题(初级)</title>
+    <link href="http://yoursite.com/2017/03/03/IOS%E9%9D%A2%E8%AF%95%E9%A2%98(%E5%88%9D%E7%BA%A7)/"/>
+    <id>http://yoursite.com/2017/03/03/IOS面试题(初级)/</id>
+    <published>2017-03-03T06:40:15.000Z</published>
+    <updated>2017-08-04T01:52:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>近日身边的朋友都在找工作，于是我在网上找了一些面试题目。(题目来源于网络)</strong></p>
+<ol>
+<li>Object-c的类可以多重继承么?可以实现多个接口么?Category是什么?重写一个类的方式用继承好还是分类好?为什么?</li>
+<li>#import 跟#include 又什么区别，@class呢, #import&lt;&gt; 跟 #import””又什么区别?</li>
+<li>属性readwrite，readonly，assign，retain，copy，nonatomic 各是什么作用，在那种情况下用?</li>
+<li>写一个setter方法用于完成@property (nonatomic,retain)NSString <em>name,写一个setter方法用于完成@property(nonatomic，copy)NSString </em>name</li>
+<li>对于语句NSString*obj = [[NSData alloc] init]; obj在编译时和运行时分别时什么类型的对象?</li>
+<li>常见的object-c的数据类型有那些， 和C的基本数据类型有什么区别?如：NSInteger和int</li>
+<li>id 声明的对象有什么特性?</li>
+<li>Objective-C如何对内存管理的,说说你的看法和解决方法?</li>
+<li>内存管理的几条原则时什么?按照默认法则.那些关键字生成的对象需要手动释放?在和property结合的时候怎样有效的避免内存泄露?</li>
+<li>如何对iOS设备进行性能测试?</li>
+<li>Object C中创建线程的方法是什么?如果在主线程中执行代码，方法是什么?如果想延时执行代码、方法又是什么?</li>
+<li>MVC设计模式是什么？ 你还熟悉什么设计模式？</li>
+<li>浅复制和深复制的区别?</li>
+<li>类别的作用?继承和类别在实现中有何区别?</li>
+<li>类别和类扩展的区别。</li>
+<li>什么是KVO和KVC?</li>
+<li>代理的作用?</li>
+<li>oc中可修改和不可以修改类型。</li>
+<li>我们说的oc是动态运行时语言是什么意思?</li>
+<li>通知和协议的不同之处?</li>
+<li>什么是推送消息?</li>
+<li>关于多态性</li>
+<li>对于单例的理解</li>
+<li>frame和bounds有什么不同?</li>
+<li>方法和选择器有何不同?</li>
+<li>OC的垃圾回收机制?</li>
+<li>NSOperation queue?</li>
+<li>什么是延迟加载?</li>
+<li>在iPhone应用中如何保存数据?</li>
+<li>什么是谓词?</li>
+<li>iOS 中的多线程</li>
+<li>谈谈Object-C的内存管理方式及过程？</li>
+<li>Object-C有多继承吗？没有的话用什么代替？cocoa 中所有的类都是NSObject 的子类</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;近日身边的朋友都在找工作，于是我在网上找了一些面试题目。(题目来源于网络)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Object-c的类可以多重继承么?可以实现多个接口么?Category是什么?重写一个类的方式用继承好还是分类好?为什么?&lt;/li&gt;
+&lt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用SourceTree&amp;Github 碰到的问题</title>
+    <link href="http://yoursite.com/2017/03/02/%E4%BD%BF%E7%94%A8SourceTree&amp;Github%20%E7%A2%B0%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2017/03/02/使用SourceTree&amp;Github 碰到的问题/</id>
+    <published>2017-03-02T06:40:15.000Z</published>
+    <updated>2017-08-04T01:52:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="使用github-创建一个空白仓库时，使用sourcetree克隆下来的分支里面找不到master分支，错误提示：fatal-Not-a-valid-object-name-‘master’"><a href="#使用github-创建一个空白仓库时，使用sourcetree克隆下来的分支里面找不到master分支，错误提示：fatal-Not-a-valid-object-name-‘master’" class="headerlink" title="使用github 创建一个空白仓库时，使用sourcetree克隆下来的分支里面找不到master分支，错误提示：fatal: Not a valid object name: ‘master’"></a>使用github 创建一个空白仓库时，使用sourcetree克隆下来的分支里面找不到master分支，错误提示：fatal: Not a valid object name: ‘master’</h3><p><em>解决方案 :</em></p>
+<pre><code>1. `git init`  初始化这个仓库
+2. `git --bare init`  清空这个仓库
+</code></pre><p>这时打开SourceTree，<strong>未暂存文件</strong>里面会出来多个文件，提交这些文件后，master 就正常显示了。<br><strong>注：不知道是不是只有我碰到这类问题</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;使用github-创建一个空白仓库时，使用sourcetree克隆下来的分支里面找不到master分支，错误提示：fatal-Not-a-valid-object-name-‘master’&quot;&gt;&lt;a href=&quot;#使用github-创建一个空白仓库时，使用sour
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
